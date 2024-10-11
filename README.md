@@ -28,5 +28,11 @@ Security Measures
 Passwords are securely hashed using the BCrypt library, enhancing user data protection.
 Input validation is implemented to prevent SQL injection and ensure data integrity
 
+# Build and Run Instructions
+1. Clone this repository: git clone https://github.com/Nikkk28/Electricity-Billing-System-Using-JavaFX-and-JDBC
+2. Navigate to the project directory: cd Electricity-Billing-System-Using-JavaF-and-JDBC
+3. Build the project using maven: mvn clean install
+4. Run the Application: mvn javafx:run
+
 # Development Environment
 I recommend using IntelliJ IDEA as the IDE for this project. Its powerful features and built-in support for Java and JavaFX significantly enhance the development experience, making it easier to manage dependencies and build the application.
