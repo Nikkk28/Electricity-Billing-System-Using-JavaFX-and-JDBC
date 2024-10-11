@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.electricitybillingsystem.Payments">
+
+   <!-- ScrollPane to make transaction list scrollable -->
+   <ScrollPane fx:id="scrollPane" layoutX="70.0" layoutY="26.0" prefHeight="388.0" prefWidth="461.0">
+      <content>
+         <!-- AnchorPane will dynamically load transaction data -->
+         <AnchorPane fx:id="transactionPane" prefHeight="400.0" prefWidth="458.0">
+            <!-- Transaction Labels will be dynamically added here -->
+         </AnchorPane>
+      </content>
+   </ScrollPane>
+
+   <!-- Label for the payment history heading -->
+   <Label layoutX="230.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Payment History" />
+
+</AnchorPane>

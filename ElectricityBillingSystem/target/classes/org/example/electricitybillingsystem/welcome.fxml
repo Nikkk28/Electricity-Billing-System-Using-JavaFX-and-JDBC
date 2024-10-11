@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.electricitybillingsystem.Payments">
+    <ImageView fitHeight="319.0" fitWidth="349.0" layoutX="14.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@Opening-image.jpg" />
+    </ImageView>
+    <Label layoutX="179.0" layoutY="14.0" text="Electricity Billing System">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+        </font>
+    </Label>
+    <Label fx:id="label" layoutX="252.0" layoutY="45.0" prefHeight="20.0" prefWidth="131.0" text="Welcome ">
+        <font>
+          <Font name="System Bold" size="14.0" />
+        </font>
+    </Label>
+   <Label layoutX="393.0" layoutY="110.0" text="Get your payment history :">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Label>
+   <Hyperlink layoutX="434.0" layoutY="128.0" onAction="#paymentHistory" text="Click Here!" />
+   <Label layoutX="411.0" layoutY="161.0" text="For a new payment :">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Label>
+   <Hyperlink layoutX="436.0" layoutY="179.0" onAction="#currentBill" text="Click Here!" />
+</AnchorPane>
