@@ -45,7 +45,7 @@ public class Payments {
     public void displayTransactions() {
         List<Transaction> transactions = TransactionData.getUserTransactions();  // Fetch transactions from the database
 
-        double layoutY = 20;  // Initial Y position for the first transaction
+        double layoutY = 20;  // Initial Y position for the first transaction(s)
 
         for (Transaction transaction : transactions) {
             // Create a label for Transaction ID
